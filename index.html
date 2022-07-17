@@ -20,7 +20,7 @@
 		<style>
 				.flip-box {
 				  background-color: transparent;
-				  width: 550px;
+				  max-width : 550px;
 				  height: 300px;
 				  border: 1px solid #f1f1f1;
 				  border-radius:20px 20px 20px 20px;
@@ -89,7 +89,7 @@
             .dropdown-content {
                 background-size: 100%;
                 max-width: 1110px;
-                width: 1110px;
+               
                 background: url("images/bk13.jpg");
                 display: none;
                 position: absolute;
@@ -116,21 +116,30 @@
 			display: block;
 				}														}
 
-        @media only screen and (max-width:780px) {
+            @media only screen and (max-width:780px) {
                 .dropdown-content {
-                    width:250px;
+                    width: 300px;
                     display: none;
                 }
 
                 .flip-box {
-                    width: 100%;
-                    height: 300px;
+                    height: 100px;
                     font-size: 10px;
+                    perspective: 100px;
+					width: 100%;
                 }
 
-                .flip-box-inner {
-                    font-size: 1.7em;
+                .flip-box img {
+                    width: 100%;
                 }
+                .flip-box-inner {
+                    font-size: 1em;
+                }
+ 
+				.flip-box-front a {
+                        font-size: 1rem;
+                    }
+
             }	
 
 		</style>
@@ -224,126 +233,126 @@ window.onclick = function(event) {
 }
 </script>	
 
-	<body>	
-					<!-- basis of the church-->
+	<body>
+		<!-- basis of the church-->
 		<div class="deliv">
-				DELIVERANCE
-		</div><br />		
-	
-	<br />
-	<!--the first row for the site explaining the founders-->
+			DELIVERANCE
+		</div><br />
+
+		<br />
+		<!--the first row for the site explaining the founders-->
 		<div class="row2">
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/pastor.JPG); background-size:cover">
-					<a href="#" onclick="show()">SENIOR PASTOR</a><!--<img src="images/webpic5.jpg" alt="HOVAMI" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/pastor.jpg); background-size:cover">
+							<a href="#" onclick="show()">SENIOR PASTOR</a><!--<img src="images/webpic5.jpg" alt="HOVAMI" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>SENIOR PASTOR</h2>
+							<p><b><i><u>Pr Yiga Peter Abyokya</u></i></b>,the founder of House of victory and miracles international church Kasubi-kawaala. A living testimony, here to save the Lord, to help you understand the Authority one has on earth</p>
+							<a href="#" target="_blank">Read more</a>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>SENIOR PASTOR</h2>
-					  <p><b><i><u>Pr Yiga Peter Abyokya</u></i></b>,the founder of House of victory and miracles international church Kasubi-kawaala. A living testimony, here to save the Lord, to help you understand the Authority one has on earth</p>
-					  <a href="#" target="_blank">Read more</a>
-					</div>
-				  </div>
 				</div>
 			</div>
-	
+
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/people.JPG); background-size:cover">
-						<a href="#" onclick="show()">Location</a><!--<img src="images/bk11.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/people.jpg); background-size:cover">
+							<a href="#" onclick="show()">Location</a><!--<img src="images/bk11.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>Paris</h2>
+							<p>What an amazing city</p>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>Paris</h2>
-					  <p>What an amazing city</p>
-					</div>
-				  </div>
 				</div>
 			</div>
 		</div><br />
-							<!-- displaying pictures that change randomly with time duration 10s-->
+		<!-- displaying pictures that change randomly with time duration 10s-->
 		<div class="movingpics">
-			
+
 		</div><br />
-							<!-- the worshiping and praising teams in the church-->
+		<!-- the worshiping and praising teams in the church-->
 		<div class="row2">
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/webpic5.jpg); background-size:cover">
-					  <a href="#" onclick="show()">GOLDEN SKY</a><!--<img src="images/webpic5.jpg" alt="HOVAMI" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/webpic5.jpg); background-size:cover">
+							<a href="#" onclick="show()">GOLDEN SKY</a><!--<img src="images/webpic5.jpg" alt="HOVAMI" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>GOLDEN SKY CHIOR</h2>
+							<p>Once small now inspiring lives. The team makes praise and worship special. Travels in many worship places just to bring the sound of music to the ears of God's people. The love to worship the Lord Almighty</p>
+							<a href="#" target="_blank">Read more</a>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>GOLDEN SKY CHIOR</h2>
-					  <p>Once small now inspiring lives. The team makes praise and worship special. Travels in many worship places just to bring the sound of music to the ears of God's people. The love to worship the Lord Almighty</p>
-					  <a href="#" target="_blank">Read more</a>
-					</div>
-				  </div>
 				</div>
 			</div>
-			
+
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/webpic11.jpg); background-size:cover">
-					   <a href="#" onclick="show()">WORSHIP</a><!--<img src="images/webpic11.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/webpic11.jpg); background-size:cover">
+							<a href="#" onclick="show()">WORSHIP</a><!--<img src="images/webpic11.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>WORSHIP TEAM</h2>
+							<p>The team one of kind, praise and worship at another level. You want dance to the Lord, come see how to do it. There is passion to dance for Him.</p>
+							<a href="#" target="_blank">Read more</a>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>WORSHIP TEAM</h2>
-					  <p>The team one of kind, praise and worship at another level. You want dance to the Lord, come see how to do it. There is passion to dance for Him.</p>
-					  <a href="#" target="_blank">Read more</a>
-					</div>
-				  </div>
 				</div>
 			</div>
 		</div><br />
-		
+
 		<div class="movingpics">
-			
+
 		</div><br />
-		
-					<!--The row2 explaing the evagelism and sunday school teams-->
-			<div class="row2">
+
+		<!--The row2 explaing the evagelism and sunday school teams-->
+		<div class="row2">
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/webpic15.jpg); background-size:cover">
-					    <a href="#" onclick="show()">Read more</a><!--<img src="images/webpic15.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/webpic15.jpg); background-size:cover">
+							<a href="#" onclick="show()">Read more</a><!--<img src="images/webpic15.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>Evangelism</h2>
+							<p>Once small now inspiring lives. The team makes praise and worship special. Travels in many worship places just to bring the sound of music to the ears of God's people. The love to worship the Lord Almighty</p>
+							<a href="#" target="_blank">Read more</a>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>Evangelism</h2>
-					  <p>Once small now inspiring lives. The team makes praise and worship special. Travels in many worship places just to bring the sound of music to the ears of God's people. The love to worship the Lord Almighty</p>
-					  <a href="#" target="_blank">Read more</a>
-					</div>
-				  </div>
 				</div>
 			</div>
-			
+
 			<div class="column2">
 				<div class="flip-box">
-				  <div class="flip-box-inner">
-					<div class="flip-box-front" style="background:url(images/webpic2.jpg); background-size:cover">
-					  <a href="#" onclick="show()">Read more</a><!-- <img src="images/webpic2.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+					<div class="flip-box-inner">
+						<div class="flip-box-front" style="background:url(images/webpic2.jpg); background-size:cover">
+							<a href="#" onclick="show()">Read more</a><!-- <img src="images/webpic2.jpg" alt="Paris" style="width:100%;height:100%;border-radius:20px 20px 20px 20px;">-->
+						</div>
+						<div class="flip-box-back">
+							<h2>SUNDAY SCHOOL</h2>
+							<p>Teaching the chidren of God, naturing, the future tomorrow. Let the children come to me and do not stop them, because the Kingdom of heaven belongs to such as these. Matthew 19:14</p>
+							<a href="#" target="_blank">Read more</a>
+						</div>
 					</div>
-					<div class="flip-box-back">
-					  <h2>SUNDAY SCHOOL</h2>
-					  <p>Teaching the chidren of God, naturing, the future tomorrow. Let the children come to me and do not stop them, because the Kingdom of heaven belongs to such as these. Matthew 19:14</p>
-					  <a href="#" target="_blank">Read more</a>
-					</div>
-				  </div>
 				</div>
 			</div>
 		</div><br />
-		
+
 		<div class="righ">
-			<a href="#" target="_blank">F </a><br />
-			<a href="#" target="_blank">Y </a><br />
-			<a href="#" target="_blank">I  </a><br />
-			<a href="#" target="_blank">T  </a><br />
-			<a href="#" target="_blank">W  </a><br />
-		</div>
-		
+		<a href="#" target="_blank">F </a><br />
+		<a href="#" target="_blank">Y </a><br />
+		<a href="#" target="_blank">I  </a><br />
+		<a href="#" target="_blank">T  </a><br />
+		<a href="#" target="_blank">W  </a><br />
+	</div>
+
 	</body>
 
 	<footer>
