@@ -317,13 +317,13 @@ div.righ a{
 	
 	div.deliv{
 		background-size:cover;
-		font-size:50px;
+		font-size:40px;
 		text-align:center;
 		height:100px;
 	}
 	div.deliv2{
 		padding:50px 10px;
-		font-size:50px;
+		font-size:40px;
 		text-align:center;
 	}
 	
@@ -345,4 +345,7 @@ div.righ a{
 		text-align:left;
 	}
 
-}
+	div.foot {
+		font-size: 20px;
+		height: 45px;
+	}
