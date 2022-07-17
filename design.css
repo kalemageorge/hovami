@@ -210,7 +210,7 @@ div.movingpics{						/*Used to animate or slideshow images*/
 	background-color: transparent;
 	background-size:1200px 400px;
 	animation-name: colorchange;
-	animation-delay:2s;
+	animation-delay:4s;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
@@ -294,7 +294,7 @@ div.righ a{
 	text-decoration:none;
 }
 
-@media screen and (min-width:400px) and (max-width:780px){
+@media only screen and (max-width:780px){
 	body{
 			margin:10px;
 			background-repeat: no-repeat;
@@ -308,8 +308,11 @@ div.righ a{
 	}
 	
 	div.movingpics{
-		background-size:100%;
+		background-size:cover;
+		background-repeat: no-repeat;
 		height:250px;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	div.deliv{
@@ -327,6 +330,9 @@ div.righ a{
 	div.pic2{
 		padding-left:70px;
 		padding-top:5px;
+	}
+	.row2{
+		width: 100%;
 	}
 	.column2{
 		width:100%;
