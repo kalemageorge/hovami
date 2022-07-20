@@ -294,55 +294,60 @@ div.righ a{
 	text-decoration:none;
 }
 
-@media only screen and (max-width:780px){
-	body{
-			margin:10px;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-	}
-	
-	header{
-		height:150px;
-		padding:0px;
-	}
-	
-	div.movingpics{
-		background-size:cover;
+@media only screen and (max-width:780px) {
+	body {
+		margin: 10px;
 		background-repeat: no-repeat;
-		height:250px;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	header {
+		height: 150px;
+		padding: 0px;
+	}
+
+	div.movingpics {
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 250px;
 		justify-content: center;
 		align-items: center;
 	}
-	
-	div.deliv{
-		background-size:cover;
-		font-size:40px;
-		text-align:center;
-		height:100px;
+
+	div.deliv {
+		background-size: cover;
+		font-size: 40px;
+		text-align: center;
+		height: 100px;
 	}
-	div.deliv2{
-		padding:50px 10px;
-		font-size:40px;
-		text-align:center;
+
+	div.deliv2 {
+		padding: 50px 10px;
+		font-size: 40px;
+		text-align: center;
 	}
-	
-	div.pic2{
-		padding-left:70px;
-		padding-top:5px;
+
+	div.pic2 {
+		padding-left: 70px;
+		padding-top: 5px;
 	}
-	.row2{
+
+	.row2 {
 		width: 100%;
 	}
-	.column2{
-		width:100%;
+
+	.column2 {
+		width: 100%;
 		padding: 10px;
 	}
-	.column{
-		width:100%;
+
+	.column {
+		width: 100%;
 	}
-	p.pic3{
-		text-align:left;
+
+	p.pic3 {
+		text-align: left;
 	}
 
 	div.foot {
