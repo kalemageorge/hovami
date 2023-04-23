@@ -62,15 +62,15 @@ header{
 	max-width: 900px;
 }
 
-body{
+/*body{
 	margin:10px 100px;
 	font-size:25px;
-	background-image:url("images/b14.jpg");
+	background-image:url("images/bk14.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-
+*/
 
 img{
 	max-height:100%;
